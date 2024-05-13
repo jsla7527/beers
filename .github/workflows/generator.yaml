@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: robinraju/release-downloader@v1.8
         with:
-          repository: "kyrremann/unparsd"
+          repository: "jsla7527/unparsd"
           latest: true
           fileName: "unparsd"
       - run: |
